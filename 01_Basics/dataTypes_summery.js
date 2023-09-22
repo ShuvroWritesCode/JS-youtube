@@ -1,3 +1,4 @@
+// ********************************** Data Type Summery **********************************
 // primitives 
 
 // 7 types: String, Number, Boolean, null, undefined, Symbol, BigInt
@@ -34,9 +35,6 @@ let myObj = {
 const myFunction = function(){
     console.log("Hello World");
 }
-
-
-
 
 // ********************************** Memory Allocation **********************************
 
