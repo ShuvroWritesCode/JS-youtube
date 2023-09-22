@@ -34,3 +34,28 @@ let myObj = {
 const myFunction = function(){
     console.log("Hello World");
 }
+
+
+
+
+// ********************************** Memory Allocation **********************************
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+let myGithubName = "ShuvroWritesCode"
+
+let anotherName = myGithubName // this is a copied data in anotherName
+anotherName = "Codeforces"
+console.log(anotherName);
+
+let user = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userOne = user // this is not a copied data rather a referenced data from heap
+
+userOne.email = "userOne@google.com"
+
+console.log(user.email);
+console.log(userOne.email);
