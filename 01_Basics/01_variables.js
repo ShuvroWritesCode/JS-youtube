@@ -1,3 +1,5 @@
+"use strict"
+
 const accountId = 1234
 let accountEmail = "shuvrowritescode@gmail.com"
 var accountPassword = "1234"

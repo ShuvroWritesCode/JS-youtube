@@ -1,3 +1,5 @@
+"use strict"
+
 const name = "Shuvro"
 const repoCount = 50
 
