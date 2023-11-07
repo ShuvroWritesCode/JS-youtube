@@ -12,13 +12,20 @@ const account = {
     [mySym]: "mykey1",
     location: "Dhaka",
     isLoggedIn: false,
-    lastLoginDays: ["monday", "saturday"]
+    lastLoginDays: ["monday", "saturday"],
 }
 
+account.greeting = function(){
+    console.log("Hello objects...");
+}
+
+account.greetingTwo = function(){
+    console.log(`Hello, ${this.name}`)
+}
+ 
 console.log(account.location)
 console.log(account["full name"])
 console.log(account[mySym])
 console.log(account.name)
-
-account.name = "Samir"
-Object.freeze(account)
+console.log(account.greeting())
+console.log(account.greetingTwo())
